@@ -1,6 +1,7 @@
 /*
+        TO BE REWRITTEN IN Password_Mangaer v2.0
+
     Password manager:
-        
         - Enter password to access the program :
             - Register :
                 - Are you sure that you want this password?      DONE
@@ -9,11 +10,7 @@
         - Create files if they don't already exist   DONE
         - When to crypt/decrypt for the passwords    DONE
         - When to crypt/decrypt for the main password             MAYBE DONE
-        
-        
         - Error checking if the person closed the program while entering a record    NOT STARTED
-        
-        
         - Menu       DONE
         - Enter      DONE         
         - Display   DONE
@@ -24,14 +21,14 @@
             - Temp created
             - Overwriting  done
         - Edit password                                       DONE          
-
+        - Crypt          DONE 
+        - Delete_Temp    DONE
         Main pass nu se mai cripteaza iar cand pornesc programul iar se decripteaza desi nu este nevoie 
         Cand inchid programul gresit. A doua oara cand il deschid apare doar mesajul ca l-am inchis din greseala si nu imi mai cere parola ca sa il deschid
         se crypteaza sau decrypteaza de doua ori cand il inchid gresit.
         Cred ca problema este cand decrypt_access este chemat. Trebuie sa existe o conditie care verifica daca este nevoie de decriptare
         
-        - Crypt          DONE 
-        - Delete_Temp    DONE
+       
 */
 
 #include <stdio.h>
